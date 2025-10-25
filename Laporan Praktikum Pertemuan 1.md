@@ -3,38 +3,38 @@ Laporan Praktikum 1 Desain Web Kelas
 ## 4524210025 - Delsyad Iza
 **Bagian 1: Instalasi & Konfigurasi Awal Git**
 1. Instalasi Git
-   <img width="253" height="54" alt="image" src="https://github.com/user-attachments/assets/e7c5f97d-636c-44e9-8fe7-c436c42d74a7" />
+<img width="253" height="54" alt="image" src="https://github.com/user-attachments/assets/e7c5f97d-636c-44e9-8fe7-c436c42d74a7" />
 
 2. Konfigurasi Awal
-   <img width="561" height="65" alt="image" src="https://github.com/user-attachments/assets/d0137c91-e081-4c4a-a317-242069f63d94" />
+<img width="561" height="65" alt="image" src="https://github.com/user-attachments/assets/d0137c91-e081-4c4a-a317-242069f63d94" />
 
 **Bagian 2: Alur Kerja Dasar Git (Lokal)**
 1. Buat Folder & Inisiasi Git
-   <img width="541" height="117" alt="image" src="https://github.com/user-attachments/assets/6b427bc5-4b80-4a51-8819-a44f19785e2e" />
+<img width="541" height="117" alt="image" src="https://github.com/user-attachments/assets/6b427bc5-4b80-4a51-8819-a44f19785e2e" />
 
 2.  Buat Beberapa File
-   <img width="563" height="95" alt="image" src="https://github.com/user-attachments/assets/c78c045c-9f52-439a-ace7-66287b1cf79c" />
+<img width="563" height="95" alt="image" src="https://github.com/user-attachments/assets/c78c045c-9f52-439a-ace7-66287b1cf79c" />
 
-3. Cek Status & Masuk ke Staging Area
-   <img width="560" height="160" alt="image" src="https://github.com/user-attachments/assets/38f222e8-3664-425a-9e1c-abc7669528f7" />
+4. Cek Status & Masuk ke Staging Area
+<img width="560" height="160" alt="image" src="https://github.com/user-attachments/assets/38f222e8-3664-425a-9e1c-abc7669528f7" />
 
    
-4. Simpan Perubahan (Commit)
+5. Simpan Perubahan (Commit)
    <img width="561" height="71" alt="image" src="https://github.com/user-attachments/assets/fa3da04b-5f20-4d96-8330-de957aee3795" />
 
    
-5. Buat Branch Baru
+6. Buat Branch Baru
    <img width="408" height="49" alt="image" src="https://github.com/user-attachments/assets/6295e3f7-fd48-4dc0-a0f8-e34051b61ad5" />
 
    
-6. Buat File Baru di Branch
+7. Buat File Baru di Branch
    <img width="549" height="32" alt="image" src="https://github.com/user-attachments/assets/0a2096db-3807-49af-95dc-ce717f634af0" />
 
     
-7. Stagung & Commit di Branch
+8. Stagung & Commit di Branch
    <img width="561" height="104" alt="image" src="https://github.com/user-attachments/assets/7a6398a5-ef92-4475-9b3e-7ea904c30246" />
 
-8. Gabungkan Branch (Merge)
+9. Gabungkan Branch (Merge)
    <img width="386" height="171" alt="image" src="https://github.com/user-attachments/assets/1d47f827-8a93-4bcc-a06e-c986de1aeec9" />
 
 **Bagian 3: Integrasi dengan Github**
