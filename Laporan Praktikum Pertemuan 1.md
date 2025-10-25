@@ -20,47 +20,47 @@ Laporan Praktikum 1 Desain Web Kelas
 
    
 5. Simpan Perubahan (Commit)
-   <img width="561" height="71" alt="image" src="https://github.com/user-attachments/assets/fa3da04b-5f20-4d96-8330-de957aee3795" />
+<img width="561" height="71" alt="image" src="https://github.com/user-attachments/assets/fa3da04b-5f20-4d96-8330-de957aee3795" />
 
    
 6. Buat Branch Baru
-   <img width="408" height="49" alt="image" src="https://github.com/user-attachments/assets/6295e3f7-fd48-4dc0-a0f8-e34051b61ad5" />
+<img width="408" height="49" alt="image" src="https://github.com/user-attachments/assets/6295e3f7-fd48-4dc0-a0f8-e34051b61ad5" />
 
    
 7. Buat File Baru di Branch
-   <img width="549" height="32" alt="image" src="https://github.com/user-attachments/assets/0a2096db-3807-49af-95dc-ce717f634af0" />
+<img width="549" height="32" alt="image" src="https://github.com/user-attachments/assets/0a2096db-3807-49af-95dc-ce717f634af0" />
 
     
 8. Stagung & Commit di Branch
-   <img width="561" height="104" alt="image" src="https://github.com/user-attachments/assets/7a6398a5-ef92-4475-9b3e-7ea904c30246" />
+<img width="561" height="104" alt="image" src="https://github.com/user-attachments/assets/7a6398a5-ef92-4475-9b3e-7ea904c30246" />
 
 9. Gabungkan Branch (Merge)
-   <img width="386" height="171" alt="image" src="https://github.com/user-attachments/assets/1d47f827-8a93-4bcc-a06e-c986de1aeec9" />
+<img width="386" height="171" alt="image" src="https://github.com/user-attachments/assets/1d47f827-8a93-4bcc-a06e-c986de1aeec9" />
 
 **Bagian 3: Integrasi dengan Github**
 1. Buat Akun & Repository di Github
-   <img width="463" height="220" alt="image" src="https://github.com/user-attachments/assets/4adc68c2-abe8-4b63-a73f-ade26491c7a6" />
+<img width="463" height="220" alt="image" src="https://github.com/user-attachments/assets/4adc68c2-abe8-4b63-a73f-ade26491c7a6" />
 
 2. Hubungkan & Push Proyek Lokal ke Github
-   <img width="456" height="189" alt="image" src="https://github.com/user-attachments/assets/43b8cb35-3bfb-421d-b5df-6d4d4083f7a2" />
+<img width="456" height="189" alt="image" src="https://github.com/user-attachments/assets/43b8cb35-3bfb-421d-b5df-6d4d4083f7a2" />
 
 **Bagian 4: Workflow Kerja Kelompok di GitHub (Feature Branch Workflow)**
 1. CLone Repository
-   <img width="493" height="111" alt="image" src="https://github.com/user-attachments/assets/983a7e8f-d0ad-4f94-802b-1af704ec0201" />
+<img width="493" height="111" alt="image" src="https://github.com/user-attachments/assets/983a7e8f-d0ad-4f94-802b-1af704ec0201" />
 
 2. Selalu Mulai dari main Terbaru
-   <img width="406" height="152" alt="image" src="https://github.com/user-attachments/assets/d2aad4b3-148c-4c5d-9eeb-e6e2dcdeb40e" />
+<img width="406" height="152" alt="image" src="https://github.com/user-attachments/assets/d2aad4b3-148c-4c5d-9eeb-e6e2dcdeb40e" />
 
 3. Buat Branch Baru untuk Setiap Fitur
-   <img width="451" height="47" alt="image" src="https://github.com/user-attachments/assets/2932a7c7-ed19-449c-9ea3-f9bf6dcb7cd2" />
+<img width="451" height="47" alt="image" src="https://github.com/user-attachments/assets/2932a7c7-ed19-449c-9ea3-f9bf6dcb7cd2" />
 
 4. Kerjakan, Add, dan Commit di Branch Masing-masing
-   <img width="403" height="227" alt="image" src="https://github.com/user-attachments/assets/40e9d5c1-3373-40cd-9f73-16511932917e" />
+<img width="403" height="227" alt="image" src="https://github.com/user-attachments/assets/40e9d5c1-3373-40cd-9f73-16511932917e" />
 
 5. Push Branch Fitur ke Github
-   <img width="467" height="173" alt="image" src="https://github.com/user-attachments/assets/03c285b5-f6cc-4461-b912-600e8a5b96cb" />
+<img width="467" height="173" alt="image" src="https://github.com/user-attachments/assets/03c285b5-f6cc-4461-b912-600e8a5b96cb" />
 
 (Pull Request di Githubnya)
 
 8. Sinkronisasi Ulang Setelah Merge
-   <img width="497" height="268" alt="image" src="https://github.com/user-attachments/assets/9bc83020-5499-4e1e-b583-8527598c2130" />
+<img width="497" height="268" alt="image" src="https://github.com/user-attachments/assets/9bc83020-5499-4e1e-b583-8527598c2130" />
