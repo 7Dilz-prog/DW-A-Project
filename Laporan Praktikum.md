@@ -6,3 +6,4 @@ Berikut link gdocs lengkap Laporan Praktikum saya:
 [Teks Tautan](URL)  [https://docs.google.com/document/d/1HS9cIID9dUXkaXs_YrM2f0bnrA7KI55MxQiHfDCpSXg/edit?usp=sharing]
 * **Pertemuan 2** Praktikum HTML5 Lanjutan - Struktur, Semantik, dan Interaktivitas Bawaan
 [Teks Tautan](URL)	[https://docs.google.com/document/d/11Sz0vvoOUuVamBx-iIwyt7k6briIo3BLAHRlUR2HYB4/edit?usp=sharing]
+* **Pertemuan 3 dan 4** Praktikum - Styling dan Layouting Halaman Resep "Dapur Koding"
