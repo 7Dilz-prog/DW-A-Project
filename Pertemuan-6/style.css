@@ -1,0 +1,184 @@
+/* --- GLOBAL RESET & FONDASI --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html { font-size: 100% }
+body {
+  margin: 0;
+  font-family: 'Fira Code', Consolas, monospace;
+  line-height: 1.6rem;
+  background-color: #747474;
+  color: #000000;
+ 
+}
+
+.main-container {
+  max-width: 100px;
+  margin: 2rem auto; 
+  padding: 1rem;
+}
+
+
+/* --- LAYOUT UTAMA (MOBILE FIRST) --- */
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: clamp(1.5rem, 4vw, 3rem);
+}
+
+
+h1, h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: clamp(2rem, 1rem + 5vw, 3.5rem);
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+  color: #ffffff;
+  background-color: #000000; /* Warna abu-abu gelap yang mendekati yang ada di gambar */
+  padding: 1rem 0; /* Memberi ruang vertikal di dalam kotak */
+  margin-bottom: 2rem; /* Jarak ke elemen di bawahnya */
+
+  /* Border Pink di Atas dan Bawah */
+  border-top: 5px solid #ff00b3; 
+  border-bottom: 5px solid #ff00b3;
+}
+
+form, article {
+  background-color: #949494;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(197, 197, 197, 0.1);
+}
+
+/* --- STYLING FORMULIR --- */
+fieldset {
+  border: 1px solid #ff00b3;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[list],
+
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #8a8a8a;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* --- MEDIA QUERIES UNTUK RESPONSIVENESS --- */
+
+/* Tampilan Desktop (lebar 992px atau lebih) */
+@media (min-width: 992px) {
+  .main-container {
+    grid-template-columns: 1fr 1.5fr; 
+  }
+}
+
+/* --- STYLING TOMBOL & INTERAKTIVITAS --- */
+button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #5e5e5e; 
+
+ color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff00b3; 
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: #ff00b3; 
+  box-shadow: 0 0 5px rgba(248, 0, 145, 0.5);
+}
+
+/* Styling tambahan untuk pratinjau */
+article img, article video {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 4px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 5px solid #ff00b3;
+
+}
+
+/* --- TANTANGAN BONUS STYLING (VERSI RINGKAS) --- */
+
+/* 1. STYLING TAG <METER> */
+meter {
+    width: 20%;
+    height: 15px;
+    border-radius: 5%;
+}
+
+meter::-webkit-meter-optimum-value { background-color: #00ff00; border-radius: 15px; }
+meter::-webkit-meter-suboptimum-value { background-color: #ffffff; border-radius: 15px; }
+meter::-webkit-meter-even-less-good-value { background-color: #ff3333; border-radius: 15px; }
+
+
+/* 2. STYLING <SUMMARY> SEBAGAI TOMBOL */
+summary {
+    display: block;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #747474;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    list-style: none; 
+}
+
+/* Efek Hover */
+summary:hover {
+    background-color: #ff00b3; 
+}
+
+/* Ikon Buka/Tutup Kustom */
+summary::before {
+    content: '▶';
+    margin-right: 0.75rem;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+/* Ikon saat Terbuka */
+details[open] > summary::before {
+    content: '▼';
+}
+
+/* Styling Konten Details */
+details > {
+    padding: 1rem;
+    background-color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

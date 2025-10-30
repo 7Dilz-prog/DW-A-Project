@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratikum 2 - Pengiriman Resep</title>
+    <link rel = "stylesheet" href="/style.css">
+</head>
+<body><h1>Formulir Pengiriman Resep Baru</h1>
+<form action="/submit-recipe" method="post">
+    <fieldset>
+        <legend>Informasi Dasar Resep</legend>
+
+        <p>
+            <label for="recipe-name">Nama Resep:</label><br>
+            <input type="text" id="recipe-name" name="recipe_name" required maxlength="80">
+        </p>
+        <p>
+            <label for="prep-time">Waktu Persiapan (menit):</label><br>
+            <input type="number" id="prep-time" name="prep_time" min="5" placeholder="Contoh: 45">
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Detail Tambahan</legend>
+        <p>
+            <label for="difficulty">Tingkat Kesulitan (1-5):</label><br>
+            <input type="range" id="difficulty" name="difficulty" min="1" max="5" step="1">
+        </p>
+
+        <p>Tingkat Kesulitan: 
+        <meter 
+            min="1" 
+            max="5" 
+            value="3" 
+            id="preview-difficulty" 
+            title="3 dari 5"
+        >Sedang</meter>
+        
+        ( <span id="preview-difficulty-text">Sedang</span> ) 
+        </p>
+
+        <p>
+            <label for="recipe-category">Kategori Resep:</label><br>
+            <input list="categories" id="recipe-category" name="recipe_category">
+            <datalist id="categories">
+                <option value="Makanan Pembuka"></option>
+                <option value="Makanan Utama"></option>
+                <option value="Hidangan Penutup"></option>
+                <option value="Minuman"></option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="description">Deskripsi Lengkap Resep:</label><br><textarea 
+            id="description" 
+            name="description" required 
+            maxlength="200"
+            rows="5" 
+            cols="50" ></textarea>
+        </p>
+    </fieldset>
+
+    <button type="submit">Kirim Resep</button>
+</form>
+
+<hr>
+<h2>Pratinjau Halaman Resep</h2>
+
+<article>
+    <header>
+        <h1>Judul Anda akan Muncul Disini</h1> 
+        <p>Waktu persiapan: <time datetime="PT45M"> ... memit</time></p>
+    </header>
+    </article>
+
+    <figure>
+     <picture>
+        <source media="(min-width: 600px)" srcset="V8 style.jpg">
+
+        <img src="V8 style.jpeg">
+     </picture>
+    </figure>
+
+    <p
+       id="preview-description">
+       Deskripsi lengkap tentang resep muncul di sini. Bahan rahasia agar mudah dan cepat adalah
+       <mark>Kerjasama Team</mark>
+    </p>
+
+    <details>
+        <summary>Tampilkan Informasi Gizi</summary>
+        <ul>
+            <li>Kalori: 350kcal</li>
+            <li>Protein: 20g</li>
+            <li>Karbohidrat: 30g</li>
+        </ul>
+    </details>
+
+    <h3>Video Tutorial</h3>
+    <video controls width="600">
+        <source src="BMW.mp4" type="video/mp4">
+        Maaf, browser Anda tidak mendukung pemutaran video.
+        <track
+           kind="subtitles" 
+           src="subtitle.vtt" 
+           srclang="id" 
+           label="Indonesia" 
+           default
+        > 
+    </video>
+
+<footer>
+   
+</footer>
+
+</article>
+
+</main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
